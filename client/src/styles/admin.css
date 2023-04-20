@@ -6,23 +6,24 @@ table {
     box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
     color: #212529;
     font-size: 0.9rem;
-    margin-top:2rem;
-  }
-  
-  th {
+    margin-top: 2rem;
+}
+
+th {
     text-align: center;
     padding: 1rem;
-    background-color: #f0f0f0;
+    background-color: #8d8888;
     border-bottom: 2px solid #dee2e6;
-  }
-  
-  td {
+}
+
+td {
     padding: 1rem;
     border-bottom: 1px solid #dee2e6;
     text-align: center;
-  }
-  
-  tr:nth-of-type(even) {
+}
+
+tbody tr:hover {
     background-color: #f8f9fa;
-  }
-  
+    font-weight: bold;
+}
+
